@@ -3,8 +3,10 @@ import { getToken } from "../utils/token";
 
 let baseURL
 if (process.env.NODE_ENV == 'production'){
+    //baseURL = "http://api.757909.top/api/"
     baseURL = "http://127.0.0.1:7412/api/"
 }else{
+    //baseURL = "http://api.757909.top/api/"
     baseURL = "http://127.0.0.1:7412/api/"
 }
 

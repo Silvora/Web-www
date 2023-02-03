@@ -29,8 +29,8 @@ export default function Talk() {
 	}
 
 	useEffect(()=>{
-		let email = getToken("Admin-Email");
-		setEmail(email?email:"");
+		//let email = getToken("Admin-Email");
+		setEmail("757909414@qqq.com");
 	},[])
 
   return (

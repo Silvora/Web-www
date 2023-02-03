@@ -4,23 +4,23 @@ import { clearToken, getToken } from '../utils/token'
 import Router from 'next/router';
 export default function Header() {
 
-	const [email,setEmail]= useState("");
+	// const [email,setEmail]= useState("");
 
-	useEffect(()=>{
-		let email = getToken("Admin-Email")
-		if(email){
-			setEmail(email)
-		}else{
-			Router.push("/login")
-		}
+	// useEffect(()=>{
+	// 	let email = getToken("Admin-Email")
+	// 	if(email){
+	// 		setEmail(email)
+	// 	}else{
+	// 		Router.push("/login")
+	// 	}
 		
-	},[])
+	// },[])
 
-	const handleClearStor=()=>{
-		clearToken("ZJS-7579-Admin-Token")
-		clearToken("Admin-Email")
-		Router.push("/login")
-	}
+	// const handleClearStor=()=>{
+	// 	clearToken("ZJS-7579-Admin-Token")
+	// 	clearToken("Admin-Email")
+	// 	Router.push("/login")
+	// }
   return (
     <header className="header-section">
 		<div className="container">
@@ -31,7 +31,7 @@ export default function Header() {
 					</div>
 				</div>
 				<div className="col-lg-8 col-md-9">
-					<p className="site-btn header-btn">{email} ｜ <span onClick={handleClearStor}>退出</span></p>
+					{/* <p className="site-btn header-btn">{email} ｜ <span onClick={handleClearStor}>退出</span></p> */}
 					<nav className="main-menu">
 						<ul>
 							<li><Link href="/">首页</Link></li>
