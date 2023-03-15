@@ -1,0 +1,23 @@
+name: WWW_Next
+
+on:
+  push:
+    branches: [ "master" ]
+
+
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Restart
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{secrets.HOST}}
+        username: "root"
+        password: ${{secrets.PASSWORD}}
+        port: 22
+        script: |
+          cd /usr/local/nginx/html && rm -rf Web-www &&
+          git clone https://github.com/Zjs-7579/Web-www.git &&
+          cd Web-www && pm2 start npm --name www -- run start
