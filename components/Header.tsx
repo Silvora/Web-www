@@ -43,9 +43,9 @@ export default function Header() {
 				</div>
 			</div>
 		</div>
-		<div className="nav-switch">
+		{/* <div className="nav-switch">
 			<i className="fa fa-bars"></i>
-		</div>
+		</div> */}
 	</header>
   )
 }
