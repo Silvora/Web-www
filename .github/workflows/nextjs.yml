@@ -18,6 +18,6 @@ jobs:
         password: ${{secrets.PASSWORD}}
         port: 22
         script: |
-          cd /usr/local/nginx/html && rm -rf Web-www &&
+          cd /usr/local/nginx/html && rm -rf Web-www && pm2 stop www &&
           git clone https://github.com/Zjs-7579/Web-www.git &&
-          cd Web-www && pm2 start npm --name www -- run start
+          cd Web-www && yarn && pm2 start www
