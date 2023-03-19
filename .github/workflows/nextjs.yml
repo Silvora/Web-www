@@ -19,5 +19,5 @@ jobs:
         port: 22
         script: |
           cd /usr/local/nginx/html && rm -rf Web-www && pm2 stop www &&
-          git clone https://github.com/Zjs-7579/Web-www.git &&
+          git clone https://github.com/Silvora/Web-www.git &&
           cd Web-www && yarn && pm2 start www
