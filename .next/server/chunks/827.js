@@ -101,7 +101,7 @@ function Header() {
                             className: "logo",
                             children: /*#__PURE__*/ jsx_runtime_.jsx("h2", {
                                 className: "site-logo",
-                                children: "Zjs-7579"
+                                children: "Silovra"
                             })
                         })
                     }),
@@ -203,10 +203,10 @@ function Footer() {
                         }),
                         " by ",
                         /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                            href: "http://www.github.com/Zjs-7579",
+                            href: "http://www.github.com/Silovra",
                             target: "_blank",
                             rel: "noreferrer",
-                            children: "Zjs-7579"
+                            children: "Silovra"
                         })
                     ]
                 })

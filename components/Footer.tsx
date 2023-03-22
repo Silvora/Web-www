@@ -16,7 +16,7 @@ export default function Footer() {
 				<a href=""><span className="fa fa-twitter"></span></a>
 			</div>
 			<div className="copyright">
-Copyright &copy;All rights reserved | This template is made with <i className="fa fa-heart-o" aria-hidden="true"></i> by <a href="http://www.github.com/Zjs-7579" target="_blank" rel="noreferrer">Zjs-7579</a>
+Copyright &copy;All rights reserved | This template is made with <i className="fa fa-heart-o" aria-hidden="true"></i> by <a href="http://www.github.com/Silovra" target="_blank" rel="noreferrer">Silovra</a>
 
 </div>
 		</div>

@@ -27,7 +27,7 @@ export default function Header() {
 			<div className="row">
 				<div className="col-lg-4 col-md-3">
 					<div className="logo">
-						<h2 className="site-logo">Zjs-7579</h2>
+						<h2 className="site-logo">Silovra</h2>
 					</div>
 				</div>
 				<div className="col-lg-8 col-md-9">

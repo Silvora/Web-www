@@ -104,7 +104,7 @@ function Portfolio() {
                                         className: "portfolio-hover"
                                     }),
                                     /*#__PURE__*/ jsx_runtime_.jsx("h2", {
-                                        children: "+ See Look"
+                                        children: "→ 查看"
                                     })
                                 ]
                             })

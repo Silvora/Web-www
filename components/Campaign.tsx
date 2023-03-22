@@ -63,7 +63,7 @@ export default function Campaign() {
 										}}
 									>
                                         <div className="portfolio-hover"></div>
-										<h4>+ See Look</h4>
+										<h4>→ 查看</h4>
 									</div>
 								</a>
                                 <div className="portfolio-meta">

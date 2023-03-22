@@ -70,7 +70,7 @@ export default function Portfolio() {
 										}}
 									>
                                         <div className="portfolio-hover"></div>
-										<h2>+ See Look</h2>
+										<h2>→ 查看</h2>
 									</div>
 								</a>
 							</div>

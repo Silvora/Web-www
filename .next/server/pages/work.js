@@ -98,7 +98,7 @@ function Campaign() {
                                             className: "portfolio-hover"
                                         }),
                                         /*#__PURE__*/ jsx_runtime_.jsx("h4", {
-                                            children: "+ See Look"
+                                            children: "→ 查看"
                                         })
                                     ]
                                 })
